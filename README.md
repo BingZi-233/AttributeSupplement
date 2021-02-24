@@ -1,22 +1,6 @@
-# TabooLib SDK
+# Attribute Plus Pro 属性补全计划
 
-## Settings
-```groovy
-taboolib {
-    tabooLibVersion = '5.55'
-    loaderVersion = '2.12'
-    classifier = null
-    // relocate package
-    relocate('io.izzel.taboolib', 'ink.ptms.taboolib')
-    // built-in
-    builtin = true
-}
-```
+## 简述
 
-## Release Source Code
-````groovy
-processResources {
-    from(sourceSets.main.allSource) {
-    exclude 'plugin.yml'
-}
-````
+> 补全AttributePlus的一些常用但缺失的属性<br>
+> 避免重复编写功能一致的属性标签
