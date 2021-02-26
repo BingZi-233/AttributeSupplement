@@ -1,0 +1,10 @@
+Command:
+  logger:
+    Prompt: 'Already set up! The log levels you can currently see are as follows:'
+    VERBOSE: 'Example of VERBOSE level output of information'
+    FINEST: 'Example of FINEST level output of information'
+    FINE: 'Example of FINE level output of information'
+    INFO: 'Example of INFO level output of information'
+    WARN: 'Example of WARN level output of information'
+    ERROR: 'Example of ERROR level output of information'
+    FATAL: 'Example of FATAL level output of information'
